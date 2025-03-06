@@ -49,7 +49,7 @@ export default function Home() {
         </div>
       </div>
       <div>
-        <PredictCard/>
+        <PredictCard file={file} loading={loading} prediction={prediction}/>
       </div>
 
       <div className="flex gap-3">
